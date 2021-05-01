@@ -1,4 +1,4 @@
 from django.models import Model
 
 class Usuario(Model.models):
-    nombre = models.Charfield(max_length=155)
+    nombre = models.Charfield(max_length=255)
